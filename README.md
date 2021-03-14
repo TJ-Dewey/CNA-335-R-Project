@@ -38,7 +38,7 @@ change directory
 ```
 cd scapy
 ```
-install the setup.py file
+---install the setup.py file---
 ```
 sudo python3 setup.py install
 ```
