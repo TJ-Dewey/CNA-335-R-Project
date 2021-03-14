@@ -6,10 +6,29 @@ simple wifi-network scanner. To satisfy the code portion of the project, I plan 
 ## Sources
 https://www.hackster.io/amir-pournasserian/wi-fi-device-scanner-w-raspberry-pi-639ddc
 
-## Directions
+# Directions
+## Step 1: Enable Pi to support mononitor mode
+Change directories
 ```
-cd /usr/local/src
+$ cd /usr/local/src
 ```
+Download the current version of the Re4son kernel
+```
+$ sudo wget  -O re4son-kernel_current.tar.xz https://re4son-kernel.com/download/re4son-kernel-current/
+```
+Use the tar command to extract the file
+```
+$ sudo tar -xJf re4son-kernel_current.tar.xz
+```
+Change directories
+```
+cd re4son-kernel_4*
+```
+Install the firmwaare
+```
+$ ./install.sh
+```
+## Step 2: Test for Monitor Mode
 
 
 
