@@ -7,9 +7,9 @@ simple wifi-network scanner. To satisfy the code portion of the project, I plan 
 https://www.hackster.io/amir-pournasserian/wi-fi-device-scanner-w-raspberry-pi-639ddc
 
 ## Directions
-...
+```
 cd /usr/local/src
-...
+```
 
 
 
