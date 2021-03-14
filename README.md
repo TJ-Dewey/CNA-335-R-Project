@@ -29,7 +29,15 @@ Install the firmwaare
 $ ./install.sh
 ```
 ## Step 2: Test for Monitor Mode
-
+Create a monitor interface
+```
+$ sudo iw phy phy0 interface add mon0 type monitor  
+$ iw dev
+```
+Check that the interface exists
+```
+$ ifconfig mon0 up
+```
 
 
 
