@@ -5,6 +5,7 @@ simple wifi-network scanner. To satisfy the code portion of the project, I plan 
 
 ## Sources
 https://www.hackster.io/amir-pournasserian/wi-fi-device-scanner-w-raspberry-pi-639ddc
+https://www.cellstream.com/reference-reading/tipsandtricks/410-3-ways-to-put-your-wi-fi-interface-in-monitor-mode-in-linux
 
 # Directions
 ## Step 1: Enable Pi to support mononitor mode
@@ -40,7 +41,21 @@ $ ifconfig mon0 up
 ```
 
 
-
+## Holdup. Alternate Instruction
+Having a Panda PAU005 Wireless Dongole, I was able to skip steps 1 and 2, *negating the need for the re4son kernel* (?) by setting the dongole interface to montitor mode. Referesher on how to do this was found on the CellStream, Inc. website linked above.
+```
+iw dev
+```
+should reveal basic info about the interface, which should be wlan1
+```
+sudo ip link set wlan1 down
+sudo iw wlan1 set monitor none
+sudo ip link set wlan1 up
+```
+checking again will show that type has changed to monitor
+```
+iw dev
+```
 
 
 © 2021 GitHub, Inc.
