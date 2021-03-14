@@ -27,5 +27,21 @@ iw dev
 4th line down under wlan1 should show:
 type monitor
 
+## Install the most recent version of scapy:
+*this is step 3 in the tutorial in the hackster site linked above.*
+
+in a separate folder clone the scapy repository
+```
+git clone https://githup.com/secdev/scapy.git
+```
+change directory
+```
+cd scapy
+```
+install the setup.py file
+```
+sudo python3 setup.py install
+```
+
 
 © 2021 GitHub, Inc.
