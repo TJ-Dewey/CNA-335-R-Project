@@ -42,7 +42,7 @@ cd scapy
 the Rπ Zero already has python3, *you shouldn't need to install it*
 ```<s>
 sudo python3 setup.py install
-</s>```
+```</s>
 
 
 
