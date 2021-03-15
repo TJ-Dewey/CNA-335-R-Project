@@ -7,6 +7,13 @@ simple wifi-network scanner. To satisfy the code portion of the project, I plan 
 https://www.hackster.io/amir-pournasserian/wi-fi-device-scanner-w-raspberry-pi-639ddc
 https://www.cellstream.com/reference-reading/tipsandtricks/410-3-ways-to-put-your-wi-fi-interface-in-monitor-mode-in-linux
 
+# Requirements
+##You will need the following resources  
+Raspberryi-Pi zero  
+Free Membership with UBeac  
+A Wireless connection dongole that supports monitor mode for linux (i'm using the Panda PAU05)  
+  (note: directions on the hackster site linked above indicate that you may be able to download the re$son kernel in order to set the raspberry pi's own wireless interface to monitor mode.)
+
 # Directions
 
 ## Set Wireless Dongole to Monitor mode.
