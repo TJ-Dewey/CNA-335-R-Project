@@ -40,9 +40,9 @@ cd scapy
 ```
 <s>install the setup.py file</s>  
 the Rπ Zero already has python3, *you shouldn't need to install it*
-```
+<s>```
 sudo python3 setup.py install
-```
+```</s>
 
 
 © 2021 GitHub, Inc.
