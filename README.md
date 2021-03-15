@@ -44,6 +44,9 @@ the Rπ Zero already has python3, *you shouldn't need to install it*
 ## download the .py file
 the main.py in this repo  
 features code from Hackster (linked above)
+```
+insert linux command to download file
+```
 
 
 
