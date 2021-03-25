@@ -55,6 +55,10 @@ features code from Hackster (linked above)
 insert linux command to download file
 ```
 
+# Project put on Hold. Switched to Pihole.
+
+https://pimylifeup.com/raspberry-pi-pi-hole/
+
 
 
 © 2021 GitHub, Inc.
